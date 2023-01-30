@@ -19,7 +19,7 @@ document.getElementById("top-btn").addEventListener("click", function() {
   });  
 });
 };
-
+/*
 var menu = document.querySelector(".menu");
 var toggleBtn = document.querySelector(".toggle-btn");
 
@@ -36,3 +36,10 @@ window.addEventListener("resize", function() {
     menu.classList.add("show");
   }
 });
+*/
+let toggle = document.querySelector('.toggle');
+let body = document.querySelector('body');
+
+toggle.addEventListener('click', function(){
+  body.classList.toggle('open');
+})
