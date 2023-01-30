@@ -259,46 +259,33 @@ html, body {
   height: 50px;
 }
 
-.navbar {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem;
 }
 
-.navbar-brand {
-  font-weight: bold;
-}
-
-.navbar-list {
+.menu-horizontal {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.navbar-item {
-  margin-left: 1rem;
+.menu-horizontal li {
+  margin: 0 1rem;
 }
 
-.navbar-toggle {
+.menu-toggle {
   display: none;
-  cursor: pointer;
 }
 
-@media (max-width: 767px) {
-  .navbar-list {
+@media (max-width: 768px) {
+  .menu-horizontal {
     display: none;
-    flex-direction: column;
-    align-items: center;
   }
-
-  .navbar-item {
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
-
-  .navbar-toggle {
+  .menu-toggle {
     display: block;
   }
 }
