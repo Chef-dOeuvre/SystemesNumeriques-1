@@ -20,9 +20,17 @@ document.getElementById("top-btn").addEventListener("click", function() {
 });
 };
 
-const toggleBtn = document.querySelector(".menu-toggle");
-const menu = document.querySelector(".menu");
+var menu = document.querySelector(".menu");
+var toggleBtn = document.querySelector(".toggle-btn");
 
-toggleBtn.addEventListener("click", function() {
+function toggleMenu() {
   menu.classList.toggle("show");
+}
+
+toggleBtn.addEventListener("click", toggleMenu);
+
+window.addEventListener("resize", function() {
+  if (window.innerHeight > window.innerWidth) {
+    menu.classList.remove("show");
+  }
 });
