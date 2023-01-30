@@ -20,9 +20,8 @@ document.getElementById("top-btn").addEventListener("click", function() {
 });
 };
 
-const toggle = document.querySelector('.navbar-toggle');
-const list = document.querySelector('.navbar-list');
-
-toggle.addEventListener('click', function() {
-  list.classList.toggle('open');
+$(document).ready(function() {
+  $('.menu-toggle').click(function() {
+    $('.menu-horizontal').slideToggle();
+  });
 });
