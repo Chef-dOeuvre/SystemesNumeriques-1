@@ -19,3 +19,9 @@ document.getElementById("top-btn").addEventListener("click", function() {
   });  
 });
 };
+
+$(document).ready(function() {
+  $(".navbar-menu").click(function() {
+    $(".navbar-list").toggle();
+  });
+});
