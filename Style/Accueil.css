@@ -298,3 +298,6 @@ html, body {
     display: block;
   }
 }
+.menu.show {
+  display: block;
+}
