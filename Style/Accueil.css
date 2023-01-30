@@ -259,43 +259,38 @@ html, body {
   height: 50px;
 }
 
-nav {
+.menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
 }
 
-.menu-horizontal {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu-horizontal li {
-  margin: 0 1rem;
+.menu-item {
+  margin: 0 10px;
 }
 
 .menu-toggle {
   display: none;
+  color: #fff;
+  font-size: 20px;
   cursor: pointer;
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
-  .menu-horizontal {
-    display: none;
+@media (max-width: 767px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
   }
+
+  .menu-item {
+    margin: 10px 0;
+  }
+
   .menu-toggle {
     display: block;
   }
 }
-.menu-horizontal.active {
-  display: block;
-}
-.navbar-vertical {
-  display: flex;
-  flex-direction: column;
-}
-
 
