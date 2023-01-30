@@ -20,8 +20,11 @@ document.getElementById("top-btn").addEventListener("click", function() {
 });
 };
 
-$(document).ready(function() {
-  $('.menu-toggle').click(function() {
-    $('.menu-horizontal').slideToggle();
+document.addEventListener("DOMContentLoaded", function() {
+  var menuToggle = document.querySelector('.menu-toggle');
+  var menuHorizontal = document.querySelector('.menu-horizontal');
+
+  menuToggle.addEventListener('click', function() {
+    menuHorizontal.classList.toggle('active');
   });
 });
