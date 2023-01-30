@@ -20,12 +20,9 @@ document.getElementById("top-btn").addEventListener("click", function() {
 });
 };
 
-window.addEventListener("orientationchange", function() {
-  if (window.innerHeight > window.innerWidth) {
-    document.querySelector(".navbar").classList.add("navbar-vertical");
-    document.querySelector(".navbar").classList.remove("navbar-horizontal");
-  } else {
-    document.querySelector(".navbar").classList.add("navbar-horizontal");
-    document.querySelector(".navbar").classList.remove("navbar-vertical");
-  }
-});
+const toggleBtn = document.querySelector(".menu-toggle");
+      const menu = document.querySelector(".menu");
+    
+      toggleBtn.addEventListener("click", function() {
+        menu.classList.toggle("show");
+      });
