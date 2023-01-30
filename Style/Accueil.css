@@ -259,7 +259,7 @@ html, body {
   height: 50px;
 }
 
-.menu {
+.menu1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -268,11 +268,11 @@ html, body {
   color: #fff;
 }
 
-.menu-item {
+.menu1-item {
   margin: 0 10px;
 }
 
-.menu-toggle {
+.menu1-toggle {
   display: none;
   color: #fff;
   font-size: 20px;
@@ -280,16 +280,16 @@ html, body {
 }
 
 @media (max-width: 767px) {
-  .menu {
+  .menu1 {
     flex-direction: column;
     align-items: center;
   }
 
-  .menu-item {
+  .menu1-item {
     margin: 10px 0;
   }
 
-  .menu-toggle {
+  .menu1-toggle {
     display: block;
   }
 }
