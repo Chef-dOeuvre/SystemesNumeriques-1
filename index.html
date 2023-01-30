@@ -4,7 +4,6 @@
   <head>
     <meta charset="UTF-8">
     <script src="js/accueil.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="/Style/Accueil.css" media="screen" type="text/css"/> 
     <link rel="icon" type="image/png" href="./assets/img/LogoSN.png"/>
     <title>Le Bac Pro SN c'est quoi ?</title>
@@ -28,18 +27,23 @@
           </nav> 
       </div>
     </div>-->
-    <nav>
+    <nav class="menu">
+      <div class="menu-item">Home</div>
+      <div class="menu-item">About</div>
+      <div class="menu-item">Contact</div>
       <div class="menu-toggle">
-        <i class="fa fa-bars"></i>
+        <i class="fas fa-bars"></i>
       </div>
-      <ul class="menu-horizontal">
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">À propos</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
     </nav>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+      const toggleBtn = document.querySelector(".menu-toggle");
+      const menu = document.querySelector(".menu");
     
+      toggleBtn.addEventListener("click", function() {
+        menu.classList.toggle("show");
+      });
+    </script>
   </header> 
     <h1> Des révisions faciles pour tous  <div Align=middle> <!-- pseudo de l'utilisateur --> </h1>
     <div id="bandeau">
