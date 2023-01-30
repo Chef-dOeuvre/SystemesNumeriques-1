@@ -19,7 +19,7 @@ document.getElementById("top-btn").addEventListener("click", function() {
   });  
 });
 };
-/*
+
 var menu = document.querySelector(".menu");
 var toggleBtn = document.querySelector(".toggle-btn");
 
@@ -36,4 +36,3 @@ window.addEventListener("resize", function() {
     menu.classList.add("show");
   }
 });
-*/
