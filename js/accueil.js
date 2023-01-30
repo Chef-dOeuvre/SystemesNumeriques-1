@@ -26,4 +26,3 @@ const list = document.querySelector('.navbar-list');
 toggle.addEventListener('click', function() {
   list.classList.toggle('open');
 });
-
