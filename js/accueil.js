@@ -37,7 +37,7 @@ window.addEventListener("resize", function() {
   }
 });
 */
-let toggle = document.querySelector('.toggle');
+let toggle = document.querySelector('.toggle .fa-bars.ouvrir');
 let body = document.querySelector('body');
 
 toggle.addEventListener('click', function(){
