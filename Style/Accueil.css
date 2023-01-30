@@ -303,10 +303,4 @@ html, body {
   }
 }
 
-@media (max-width: 812px) and (max-height: 375px) {
-  .navbar-list {
-    display: flex;
-    flex-direction: column;
-  }
-}
 
