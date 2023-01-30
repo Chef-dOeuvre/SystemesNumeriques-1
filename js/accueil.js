@@ -32,5 +32,7 @@ toggleBtn.addEventListener("click", toggleMenu);
 window.addEventListener("resize", function() {
   if (window.innerHeight > window.innerWidth) {
     menu.classList.remove("show");
+  } else {
+    menu.classList.add("show");
   }
 });
