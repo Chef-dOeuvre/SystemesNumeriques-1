@@ -279,6 +279,7 @@ nav {
 
 .menu-toggle {
   display: none;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -292,5 +293,4 @@ nav {
 .menu-horizontal.active {
   display: block;
 }
-
 
