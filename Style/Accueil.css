@@ -293,5 +293,9 @@ nav {
 .menu-horizontal.active {
   display: block;
 }
+.navbar-vertical {
+  display: flex;
+  flex-direction: column;
+}
 
 
