@@ -203,7 +203,7 @@ html, body {
     top: 30px;
     overflow: hidden;
 }
-.menu {
+.menuDiapo {
     position: absolute;
     left: 0;
     z-index: 11;
@@ -211,7 +211,7 @@ html, body {
     bottom: 0;
     text-align: center;
 }
-.menu label {
+.menuDiapo label {
     cursor: pointer;
     display: inline-block;
     width: 12px;
@@ -220,7 +220,7 @@ html, body {
     border-radius: 50px;
     margin: 0 0.2em 1em;
 }
-.menu label:hover,.menu label:focus {
+.menuDiapo label:hover,.menuDiapo label:focus {
     background: #1E90FF;
 }
 .slide-input{
