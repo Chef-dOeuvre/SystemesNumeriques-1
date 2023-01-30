@@ -289,5 +289,8 @@ nav {
     display: block;
   }
 }
+.menu-horizontal.active {
+  display: block;
+}
 
 
