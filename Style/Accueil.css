@@ -284,7 +284,7 @@ html, body {
   align-items: center;
 }
 
-@media (max-width: 767px) {
+@media (orientation: portrait) {
   .menu {
     flex-direction: column;
     align-items: center;
