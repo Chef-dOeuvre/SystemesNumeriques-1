@@ -20,9 +20,10 @@ document.getElementById("top-btn").addEventListener("click", function() {
 });
 };
 
-$(document).ready(function() {
-  $(".navbar-menu").click(function() {
-    $(".navbar-list").toggle();
-  });
+const toggle = document.querySelector('.navbar-toggle');
+const list = document.querySelector('.navbar-list');
+
+toggle.addEventListener('click', function() {
+  list.classList.toggle('open');
 });
 
