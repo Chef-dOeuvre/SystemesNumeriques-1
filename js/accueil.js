@@ -20,11 +20,12 @@ document.getElementById("top-btn").addEventListener("click", function() {
 });
 };
 
-document.addEventListener("DOMContentLoaded", function() {
-  var menuToggle = document.querySelector('.menu-toggle');
-  var menuHorizontal = document.querySelector('.menu-horizontal');
-
-  menuToggle.addEventListener('click', function() {
-    menuHorizontal.classList.toggle('active');
-  });
+window.addEventListener("orientationchange", function() {
+  if (window.innerHeight > window.innerWidth) {
+    document.querySelector(".navbar").classList.add("navbar-vertical");
+    document.querySelector(".navbar").classList.remove("navbar-horizontal");
+  } else {
+    document.querySelector(".navbar").classList.add("navbar-horizontal");
+    document.querySelector(".navbar").classList.remove("navbar-vertical");
+  }
 });
