@@ -194,8 +194,6 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #DCDCDC;
-    font-family: sans-serif;
-    font-size: 16px;
 }
 .slider-container {
     width: 100%;
@@ -370,10 +368,15 @@ nav{
   display: none;
 }
 
-.open .ouvrir {
+.open.ouvrir {
   display: none;
 }
 
-.open .fermer {
+.open.fermer {
   display: block;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
 }
