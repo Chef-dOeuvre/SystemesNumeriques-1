@@ -20,11 +20,17 @@ document.getElementById("top-btn").addEventListener("click", function() {
 });
 };
 
-let toggle = document.querySelector('.toggle');
-let body = document.querySelector('body');
-
-if (toggle && body) {
-toggle.addEventListener('click', function(){
+window.addEventListener('DOMContentLoaded', function(){
+  let toggle = document.querySelector('.toggle');
+  let body = document.querySelector('body');
+  
+  console.log(toggle);
+  console.log(body);
+  
+  if (toggle && body) {
+  toggle.addEventListener('click', function(){
+  console.log('Toggle clicked');
   body.classList.toggle('open');
-})
-}
+  });
+  }
+  });
