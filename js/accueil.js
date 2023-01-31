@@ -19,25 +19,8 @@ document.getElementById("top-btn").addEventListener("click", function() {
   });  
 });
 };
-/*
-var menu = document.querySelector(".menu");
-var toggleBtn = document.querySelector(".toggle-btn");
 
-function toggleMenu() {
-  menu.classList.toggle("show");
-}
-
-toggleBtn.addEventListener("click", toggleMenu);
-
-window.addEventListener("resize", function() {
-  if (window.innerHeight > window.innerWidth) {
-    menu.classList.remove("show");
-  } else {
-    menu.classList.add("show");
-  }
-});
-*/
-let toggle = document.querySelector('.toggle .fa-bars.ouvrir');
+let toggle = document.querySelector('toggle');
 let body = document.querySelector('body');
 
 toggle.addEventListener('click', function(){
