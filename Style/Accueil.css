@@ -370,13 +370,14 @@ header {
   }
   .toggle{
     display: block;
-    font-size: 2rem;
+    font-size: 4rem;
     cursor: pointer;
     position: relative;
     z-index: 14;
   }
 
 .logo{
+  font-size: 4rem;
   z-index: 14;
   position: relative;
 }
@@ -416,7 +417,7 @@ header {
 }
 
 .btn {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .open .menu {
