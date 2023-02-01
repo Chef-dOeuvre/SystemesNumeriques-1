@@ -321,6 +321,7 @@ header {
   background: transparent;
   border: 2px solid #1E90FF;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 @media all and (max-width:991px) {
