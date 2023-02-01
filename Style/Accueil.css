@@ -165,7 +165,6 @@ h1
   text-align: center;
   color: black;
   text-decoration: underline;
-  
   padding: 50px 0 650px 0;
   color: #1E90FF;
 }
@@ -203,6 +202,17 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+@media all and (max-width:991px) {
+  .imageP {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    height: 690px;
+    top: 30px;
+    overflow: hidden;
+  }
 }
 /*.slider-container {
     width: 100%;
