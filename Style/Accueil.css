@@ -342,6 +342,11 @@ header {
     color: #1E90FF;
   }
 
+.logoSN {
+  width: 64px;
+  height: 64px;
+}
+
 .logo{
   font-size: 4rem;
   z-index: 14;
