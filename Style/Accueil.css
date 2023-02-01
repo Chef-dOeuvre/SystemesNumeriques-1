@@ -370,7 +370,7 @@ header {
   }
   .toggle{
     display: block;
-    font-size: 3rem;
+    font-size: 7rem;
     cursor: pointer;
     position: relative;
     z-index: 14;
