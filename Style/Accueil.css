@@ -252,7 +252,7 @@ html, body {
   bottom: 30px;
   right: 30px;
   display: none;
-  z-index: 99;
+  z-index: 13;
   background-color: transparent;
   border: none;
 }
@@ -260,47 +260,6 @@ html, body {
   width: 50px;
   height: 50px;
 }
-/*
-.menu {
-  display: none;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #333;
-  color: #fff;
-}
-
-.menu-item {
-  margin: 0 10px;
-}
-
-.menu-toggle {
-  display: none;
-  color: #fff;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.show {
-  flex-direction: column;
-  align-items: center;
-}
-
-@media (orientation: portrait) {
-  .menu {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .menu-item {
-    margin: 10px 0;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-}
-*/
 
 body {
   font-family: sans-serif;
@@ -352,7 +311,7 @@ header {
 
 .btn{
   border: 0;
-  background: pink;
+  background: #1E90FF;
   font-size: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -360,7 +319,7 @@ header {
 
 .btn.btn-secondary{
   background: transparent;
-  border: 2px solid pink;
+  border: 2px solid #1E90FF;
   color: #FFFFFF;
 }
 
@@ -374,6 +333,7 @@ header {
     cursor: pointer;
     position: relative;
     z-index: 14;
+    color: #1E90FF;
   }
 
 .logo{
