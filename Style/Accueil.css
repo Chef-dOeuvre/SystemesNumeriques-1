@@ -212,7 +212,7 @@ html, body {
   }
 }
 
-@media all and (max-width:680) {
+@media all and (max-width:850px) {
   .imageP {
     height: 30vh;
     position: relative;
