@@ -364,7 +364,7 @@ header {
   color: #FFFFFF;
 }
 
-@media all and (max-width:860px) {
+@media all and (max-width:991px) {
   header {
     background: transparent;
   }
