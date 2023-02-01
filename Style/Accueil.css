@@ -315,13 +315,13 @@ header {
   font-size: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 20px;
+  color: #FFFFFF;
 }
 
 .btn.btn-secondary{
   background: transparent;
   border: 2px solid #1E90FF;
   color: #FFFFFF;
-  text-decoration: none;
 }
 
 @media all and (max-width:991px) {
