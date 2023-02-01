@@ -203,14 +203,14 @@ html, body {
   background-size: cover;
   background-position: center;
 }
-
+/*
 @media all and (max-width:991px) {
   .imageP {
     height: 70vh;
     position: relative;
     margin: 100px 70px;
   }
-}
+}*/
 
 @media all and (max-width:850px) {
   .imageP {
