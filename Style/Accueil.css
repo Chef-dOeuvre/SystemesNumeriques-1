@@ -204,7 +204,7 @@ html, body {
   background-position: center;
 }
 
-@media (min-width:831) and (max-width:991px) {
+@media (min-width:851) and (max-width:991px) {
   .imageP {
     height: 70vh;
     position: relative;
@@ -212,7 +212,7 @@ html, body {
   }
 }
 
-@media all and (max-width:830px) {
+@media (min-width:200px) and (max-width:850px) {
   .imageP {
     height: 30vh;
     position: relative;
