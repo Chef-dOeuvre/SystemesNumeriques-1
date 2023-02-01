@@ -211,6 +211,14 @@ html, body {
     margin: 100px 70px;
   }
 }
+
+@media all and (max-width:680) {
+  .imageP {
+    height: 30vh;
+    position: relative;
+    margin: 200px 70px;
+  }
+}
 /*.slider-container {
     width: 100%;
     position: relative;
