@@ -204,7 +204,7 @@ html, body {
   background-position: center;
 }
 
-@media all and (max-width:991px) {
+@media (min-width:851px) and (max-width:991px) {
   .imageP {
     height: 50vh;
     position: relative;
@@ -212,13 +212,13 @@ html, body {
   }
 }
 
-/*@media (min-width:200px) and (max-width:850px) {
+@media (min-width:200px) and (max-width:850px) {
   .imageP {
     height: 30vh;
     position: relative;
-    margin: 200px 70px;
+    margin: 0px 0px;
   }
-}*/
+}
 /*.slider-container {
     width: 100%;
     position: relative;
