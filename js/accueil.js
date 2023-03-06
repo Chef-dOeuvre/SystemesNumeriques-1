@@ -34,3 +34,15 @@ window.addEventListener('DOMContentLoaded', function(){
   });
   }
   });
+
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      let scroll = $(window).scrollTop();
+      let offset = $("#element-id").offset().top;
+      if (scroll >= offset) {
+        $("section.imageP").css("opacity", 1 - (scroll - offset) / 400);
+        $("section.projet").css("opacity", (scroll - offset) / 400);
+      }
+    });
+  });
+  
