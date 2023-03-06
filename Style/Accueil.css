@@ -250,7 +250,7 @@ html, body {
   font-size: 18px;
   margin-bottom: 10px;
 }
-
+/*
 .projet {
   background-color: lightgray;
   transition: all 0.5s ease-in-out;
@@ -261,6 +261,58 @@ section.projet {
   height: 100vh;
   width: 100%;
   overflow: hidden;
+}*/
+/* Style pour la section "projet" */
+.projet {
+  padding: 20px;
+}
+
+/* Style pour le titre "Notre projet" */
+.projet h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Style pour le sous-menu de navigation */
+.SousMenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.SousMenu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.SousMenu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.2s ease-in-out;
+}
+
+.SousMenu a:hover {
+  color: #007bff;
+}
+
+/* Style pour les sections "why", "goal", "audience", et "how" */
+.projet div {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.projet h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.projet p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 0;
 }
 
 /*.slider-container {
