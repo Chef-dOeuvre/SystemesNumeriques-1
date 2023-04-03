@@ -1,29 +1,104 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/Style/cv.css" media="screen" type="text/css" /> 
+    <script src="/js/projet.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Style/projet.css" media="screen" type="text/css" /> 
     <link rel="icon" type="image/png" href="./assets/img/LogoSN.png"/>
     <title>Le Bac Pro SN c'est quoi ?</title>
   </head>
   <body>
   <header>
-    <title>???</title>
-    <div id="PageCentrale"> 
-      <div id="BandeMenuHaut" class="ParamOpaciteMenu">
-        <div id="PhotoBandeMenuHaut" class="ParamOpaciteMenu"> <a href="https://www.querbes.net/formations-st-jo/bac-pro-sn" target="_blank"> <img id="PhotoMenu" src="/assets/img/LogoSN.png" style="float:left" alt="Image"> </a> <a href="E:\Code HTML&CSS\Chef-D'oeuvre à jour !\StyleE:\Code HTML&CSS\Chef-D'oeuvre à jour !\Style\Page de Login.html"> <img id="PhotoMenu" src="/assets/img/LogoUser.png" style="float:right" alt="Image">  </a> 
-        </div>
-          <nav class="MenuRubriques"> 
-            
-            <a href="/index.html">Accueil</a>
-            <a href="/Pages/projet.html">Notre projet</a> 
-            <a href="/Pages/competences.html">Nos compétences</a> 
-            <a href="/Pages/cv.html">CV</a> 
-            <a href="/Pages/cv.html">lettre de motivation</a> 
-           
-            <div class="dot"></div>
-          </nav> 
+    <div class="container"> 
+      <div class="logo">
+        <img class="logoSN" src="/assets/img/LogoSN.png"> 
       </div>
+      <div class="toggle">
+        <i class="fa-solid fa-bars ouvrir"></i>
+        <i class="fa-solid fa-xmark fermer"></i>
+      </div>
+        <ul class="menu">
+          <li><a href="/index.html">Accueil</a></li>
+          <li><a href="/Pages/projet.html">Notre projet</a></li>
+          <li><a href="/Pages/competences.html">Nos compétences</a></li>
+          <li><a href="/Pages/cv.html">CV</a></li>
+          <li><a href="/Pages/lettre.html">Lettre de motivation</a></li>
+          <li><button class="btn"><a href="#" class="popup-link">Inscription</a></button></li>
+          <li><button class="btn btn-secondary"><a href="#" class="popup-link">Connexion</a></button></li>
+        </ul>
     </div>
   </header>
+  <div class="inscription">
+  <a href="#" class="popup-link">Inscription</a>
+  </div>
+  <div class="popup-overlay">
+    <div class="popup-content">
+      <p>blablabla</p>
+    </div>
+  </div>
+  <h1>Tips pour un CV efficace</h1>
+  <br>
+  <br>
+  <main>
+    <section id="why">
+      <h2>Soyez concis et clair :</h2>
+      <br>
+      <p>Votre CV doit tenir sur une page et être facile à lire. Utilisez des phrases courtes et évitez les paragraphes trop longs.</p>
+      <br>
+      <br>
+    </section>
+    <section id="goal">
+      <h2>Personnalisez votre CV pour chaque emploi :</h2>
+      <br>
+      <p>Adaptez votre CV en fonction du poste que vous visez et mettez en avant les compétences et les expériences qui sont les plus pertinentes pour l'emploi.</p>
+      <br>
+      <br>
+    </section>
+    <section id="audience">
+      <h2>Mettez en avant vos réalisations :</h2>
+      <br>
+      <p>Plutôt que de simplement énumérer vos responsabilités, essayez de mettre en avant les réalisations que vous avez accomplies dans vos précédents emplois.</p>
+      <br>
+      <br>
+    </section>
+    <section id="how">
+      <h2>Utilisez des mots-clés :</h2>
+      <br>
+      <p>Utilisez des mots-clés pertinents pour l'emploi pour lequel vous postulez. Cela aidera à ce que votre CV soit identifié dans les recherches automatisées.</p>
+      <br>
+      <br>
+    </section>
+    <section>
+      <h2>Soyez honnête :</h2>
+      <br>
+      <p>Assurez-vous que tout ce que vous mettez sur votre CV est vrai et précis. Les employeurs vérifient souvent les informations fournies lors de l'embauche.</p>
+      <br>
+      <br>
+    </section>
+    <section>
+      <h2>Soyez clair sur votre formation et vos compétences :</h2>
+      <br>
+      <p>Mettez en avant vos diplômes, vos certifications et vos compétences en informatique.</p>
+      <br>
+      <br>
+    </section>
+    <section>
+      <h2>Utilisez une police facile à lire et un format clair :</h2>
+      <br>
+      <p>Optez pour une police classique comme Times New Roman ou Arial et utilisez un format clair et facile à lire.</p>
+      <br>
+      <br>
+    </section>
+    <section>
+      <h2>Faites relire votre CV par une tierce personne :</h2>
+      <br>
+      <p>Une personne extérieure à votre parcours peut repérer des erreurs ou des fautes d'orthographe que vous n'avez pas remarquées.</p>
+      <br>
+      <br>
+    </section>
+  </main>
+    <button id="top-btn"><img class="flecheHaut" src="/assets/img/flecheHaut500.png"></button>
+  </body>
 </html>
