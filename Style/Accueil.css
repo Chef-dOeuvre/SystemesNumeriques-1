@@ -233,7 +233,7 @@ html, body {
 }
 
 .texte h1 {
-  padding-top: 8rem;
+  padding-top: 3rem;
   margin-bottom: 3rem;
   text-align: center;
   font-size: 2.5rem;
@@ -264,8 +264,12 @@ section.projet {
   overflow: hidden;
 }*/
 /* Style pour la section "projet" */
+
 .projet {
-  padding: 20px;
+  background: url(/assets/img/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Style pour le titre "Notre projet" */
